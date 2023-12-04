@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@keyframes gradientAnimation {
+    0% {
+      background-position: 200% 50%;
+    }
+    100% {
+      background-position: -200% 50%;
+    }
+  }
+  
+  .text-gradient {
+    background-image: linear-gradient(to right, white, red);
+    background-size: 200% 100%;
+    background-clip: text;
+    color: transparent;
+    animation: gradientAnimation 5s linear infinite;
+  }
+
+  @keyframes shake {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    25%, 75% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+  }
+  
+  .shake {
+    animation: shake 0.5s ease-in-out;
+  }
+
+.navLinks {
+    @apply hidden;
+}
+
+.mobileClass {
+    @apply leading-10 text-xl hover:text-red-600;
+}
+
+@screen md {
+    .navLinks {
+        @apply block text-lg font-semibold text-white hover:text-red-600 duration-700;
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "extends": "airbnb",
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "linebreak-style": "off",
+        "import/prefer-default-export": "off",
+        "react/button-has-type": "off",
+        "jsx-a11y/control-has-associated-label": "off",
+        "import/no-extraneous-dependencies": "off",
+        "react/no-array-index-key": "off",
+        "react/prop-types": "off",
+        "react/jsx-no-useless-fragment": "off",
+        "eqeqeq": "off",
+        "jsx-a11y/label-has-associated-control": "off",
+        "react/react-in-jsx-scope": "off"
+    }
+}
