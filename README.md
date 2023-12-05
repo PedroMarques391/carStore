@@ -1,25 +1,38 @@
 # CarStore
 
-O **CarStore** é um projeto para simulação de um site de uma loja de carros, desenvolvido utilizando React.js e estilizado com Tailwind CSS. A abordagem adotada no desenvolvimento foi o método *mobile first*, garantindo otimização para dispositivos móveis, e posteriormente estendido para tablets. O projeto incorpora conceitos fundamentais do React, como React Routes, useState, useEffect e fetchAPI.
+O **CarStore** é um projeto que simula o site de uma loja de carros, desenvolvido com React.js e estilizado utilizando Tailwind CSS.
 
-### Páginas do Site:
+## Visite o Projeto
+
+Você pode acessar o projeto [aqui](https://pedromarques391.github.io/carStore/).
+
+## Tecnologias Utilizadas
+
+- React.js
+- Tailwind CSS
+
+## Metodologia de Desenvolvimento
+
+O projeto foi construído seguindo a abordagem *mobile first*, garantindo uma experiência otimizada para dispositivos móveis, e posteriormente adaptado para tablets. Foram empregados conceitos essenciais do React, como React Routes, useState, useEffect e fetchAPI.
+
+## Páginas do Site
 
 1. **Home:**
-   - A página inicial apresenta o banner distintivo da loja, um formulário de pesquisa e destaca os principais carros em oferta.
+   - Página inicial com banner, formulário de pesquisa e destaques das principais ofertas de carros.
 
 2. **Garagem:**
-   - A página da garagem inclui um formulário de pesquisa abrangente e exibe todo o estoque da loja, com a capacidade de filtrar por tipos de carros, tais como sedan, hatch, SUV e picapes.
+   - Página com formulário de pesquisa abrangente e exibição do estoque da loja, com filtros por tipo de carro.
 
 3. **About:**
-   - A página de informações sobre a loja oferece uma visão geral da empresa, sua missão e valores.
+   - Página de informações sobre a loja, apresentando uma visão geral da empresa, sua missão e valores.
 
 4. **Car:**
-   - A página dedicada a cada carro permite uma visualização dinâmica e detalhada, possibilitando aos clientes explorar as características específicas de cada veículo selecionado.
+   - Página dedicada a cada carro, permitindo uma visualização detalhada das características do veículo selecionado.
 
 5. **Search:**
-   - A página de resultados de pesquisa apresenta os itens correspondentes à pesquisa realizada, com tratamento adequado para casos em que não há correspondência.
+   - Página de resultados de pesquisa com tratamento para casos em que não há correspondência.
 
 6. **NotFound:**
-   - A página para situações em que o usuário insere um endereço incorreto oferece a opção de retorno à página inicial, proporcionando uma experiência de navegação intuitiva.
+   - Página para situações em que o usuário insere um endereço incorreto, oferecendo a opção de retorno à página inicial.
 
-Explore a diversidade de carros, encontre ofertas exclusivas e desfrute de uma experiência
+Explore a variedade de carros, encontre ofertas exclusivas e desfrute de uma experiência interativa.
