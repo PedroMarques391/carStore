@@ -10,7 +10,7 @@ function MainCatalog({ size }) {
 
   useEffect(() => {
     const getData = async () => {
-      const res = await fetch('../../data/db.json');
+      const res = await fetch('/carStore/db.json');
       const dataJson = await res.json();
       setCars(dataJson);
       setOriginalCatalog(dataJson);
@@ -24,7 +24,7 @@ function MainCatalog({ size }) {
     return reset;
   });
 
-  const isHomePage = pathname === '/';
+  const isHomePage = pathname === '/carStore';
 
   return (
     <>
@@ -39,7 +39,7 @@ function MainCatalog({ size }) {
       <section className="flex flex-wrap justify-around md:w-4/6 tablet:w-4/5">
         {cars.slice(0, size).map((car) => (
           <div className="flex flex-col w-[45%] tablet:w-[30%] md:w-[23%] bg-white rounded-xl overflow-hidden justify-between mt-5 shadow-2xl shadow-black" key={car.id}>
-            <img className="md:h-44" src={`${car.imagem}.jpg`} alt="Carro" />
+            <img className="md:h-44" src={`/carStore/${car.imagem}.jpg`} alt="Carro" />
             <section className="flex flex-col justify-between p-3 h-44">
               <p className="font-semibold">{car.name}</p>
               <p className="text-slate-500 mb-5">{car.specifications}</p>
@@ -52,7 +52,7 @@ function MainCatalog({ size }) {
             <div className="flex justify-center my-2">
               <Link
                 className="rounded-lg text-center bg-black text-white w-5/6 p-2 uppercase hover:text-red-500 duration-1000"
-                to={`/garage/${car.id}/${car.name}`}
+                to={`/carStore/garage/${car.id}/${car.name}`}
               >
                 Mais infomações
 

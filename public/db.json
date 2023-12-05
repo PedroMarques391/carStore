@@ -1,0 +1,236 @@
+
+     [
+    {
+        "name": "Honda Civic",
+        "specifications": "Touring 2.0",
+        "price": "110.000",
+        "year": "2018",
+        "km": "43.000",
+        "imagem": "civic",
+        "details": ["4P", "Vidros e Travas Eletricas", "Computador de Bordo"],
+        "type": "sedan",
+        "id": 1
+    },
+    {
+       
+        "name": "Toyota Corolla",
+        "specifications": "Altis Premium 2.0 Flex CVT-10",
+        "price": "130.390",
+        "year": "2020",
+        "km": "20.000",
+        "imagem": "corolla",
+        "details": ["Vidros e Travas Eletricas", "Computador de Bordo", "Teto Solar", "Rodas de Liga Leve"],
+        "type": "sedan",
+        "id": 2 
+    },
+    {
+       
+        "name": "Chevrolet Onix",
+        "specifications": "PREMIER AT TURBO",
+        "price": "107.890",
+        "year": "2023",
+        "km": "0",
+        "imagem": "onix",
+        "details": ["Vidros e Travas Eletricas", "Central Multimídia", "Banco de Couro", "Rodas de Liga Leve"],
+        "type": "hatch",
+        "id": 3
+    },
+    {
+       
+        "name": "Mercedes-Benz C200 ",
+        "specifications": "AMG line",
+        "price": "300.000",
+        "year": "2021",
+        "km": "9.000",
+        "imagem": "c200",
+        "details": ["Vidros e Travas Eletricas", "Central Multimídia 20°", "Banco de Couro com aquecimento"],
+        "type": "sedan",
+        "id": 4
+    },
+    {
+       
+        "name": "Volkswagen Gol",
+        "specifications": "Total Flex 1.6",
+        "price": "75.000",
+        "year": "2021",
+        "km": "50.000",
+        "imagem": "gol",
+        "details": ["Vidros e Travas Eletricas", "Central Multimidia 20°", "Banco de Couro", "Rodas de Liga Leve, Automático de 6 Marchas"],
+        "type": "hatch",
+        "id": 5
+    },
+    {
+       
+        "name": "Volkswagen Polo",
+        "specifications": "Polo GTS 250 TSI AT",
+        "price": "105.000",
+        "year": "2022",
+        "km": "15.000",
+        "imagem": "polo",
+        "details": ["Vidros e Travas Eletricas", "Central Multimidia 20°", "Banco de Couro", "Rodas de Liga Leve", "Ar-condicionado digital Climatronic", "Volante com paddle shifts", "Piloto Automático"],
+        "type": "hatch",
+        "id": 6
+    },
+    {
+       
+        "name": "Chevrolet Impala 69°",
+        "specifications": "V8 - 350 com 265 HP automático",
+        "price": "500.000",
+        "year": "1969",
+        "km": "100.000",
+        "imagem": "impala",
+        "details":["vidros traseiro panorâmico", "4 portas sem coluna", "kit continental na traseira"],
+        "type": "sedan",
+        "id": 7
+    },
+    {
+       
+        "name": "Chevrolet Equinox",
+        "specifications": "Premier",
+        "price": "215.000",
+        "year": "2023",
+        "km": "2.000",
+        "imagem": "equinox",
+        "details":["Teto solar panorâmico", "Multimídia MyLink e GPS integrado", "Porta malas de 468L"],
+        "type": "SUV",
+        "id": 8
+    },
+    {
+       
+        "name": " Volkswagen T-Cros",
+        "specifications": "Highline 250 TSI Automático",
+        "price": "100.000",
+        "year": "2023",
+        "km": "2.000",
+        "imagem": "tcross",
+        "details":["Bancos revestidos de couro", "Teto solar panorâmico", "Detector de fadiga", "Sistema Kessy", "Sistema start&stop"],
+        "type": "SUV",
+        "id": 9
+    },
+    {
+       
+        "name": "Peugeot 208 ",
+        "specifications": "Griffe 1.6 flex",
+        "price": "85.000",
+        "year": "2023",
+        "km": "16.000",
+        "imagem": "208",
+        "details":["Piloto automático adaptativo", "Teto solar", "Computador de bordo", "Volante multifuncional"],
+        "type": "hatch",
+        "id": 10
+    },
+    {
+       
+        "name": "Nissan Sentra",
+        "specifications": "Exclusive CVT",
+        "price": "150.000",
+        "year": "2023",
+        "km": "10.000",
+        "imagem": "sentra",
+        "details":["Piloto automático adaptativo", "Câmera 360", "Ar-condicionado digital Dual Zone", "Multimídia de 8 polegadas", "Teto Solar"],
+        "type": "sedan",
+        "id": 11
+    },
+    {
+       
+        "name": "Honda CRV",
+        "specifications": "1.5 Touring Auto 4x4",
+        "price": "250.000",
+        "year": "2022",
+        "km": "25.000",
+        "imagem": "crv",
+        "details":["Teto solar panorâmico", "Banco do motorista com regulagem de altura", "7 lugares"],
+        "type": "SUV",
+        "id": 12
+    },
+    {
+        "name": "Chevrolet S10",
+        "specifications": "High Country",
+        "price": "150.000",
+        "year": "2022",
+        "km": "5.000",
+        "imagem": "s10",
+        "details": ["Bancos em Couro", "MyLink 8° com Apple CarPlay e Android Auto", "Controle de Tração"],
+        "type": "pickup",
+        "id": 13
+      },
+      {
+        "name": "Ford Ranger",
+        "specifications": "Limited",
+        "price": "160.000",
+        "year": "2021",
+        "km": "8.000",
+        "imagem": "ranger",
+        "details": ["Bancos em Couro", "SYNC 3 com Tela Sensível ao Toque de 8°", "Sistema de Monitoramento de Pressão dos Pneus"],
+        "type": "pickup",
+        "id": 14
+      },
+      {
+        "name": "Fiat Toro",
+        "specifications": "Ranch",
+        "price": "120.000",
+        "year": "2023",
+        "km": "3.000",
+        "imagem": "toro",
+        "details": ["Central Multimídia Uconnect 7°", "Controle de Estabilidade", "Ar-condicionado Dual Zone"],
+        "type": "pickup",
+        "id": 15
+      },
+      {
+        "name": "Volkswagen Amarok",
+        "specifications": "Highline",
+        "price": "170.000",
+        "year": "2020",
+        "km": "12.000",
+        "imagem": "amarok",
+        "details": ["Bancos em Couro", "Sistema de Navegação Discover Media", "Faróis Bi-Xenon"],
+        "type": "pickup",
+        "id": 16
+      },
+      {
+        "name": "Toyota Hilux",
+        "specifications": "SRX",
+        "price": "180.000",
+        "year": "2022",
+        "km": "10.000",
+        "imagem": "hilux",
+        "details": ["Bancos em Couro", "Toyota Safety Sense", "Sistema de Áudio JBL"],
+        "type": "pickup",
+        "id": 17
+      },
+      {
+        "name": "Nissan Frontier",
+        "specifications": "LE",
+        "price": "140.000",
+        "year": "2021",
+        "km": "15.000",
+        "imagem": "frontier",
+        "details": ["Bancos em Couro", "Nissan Connect com Tela Sensível ao Toque de 8°", "Controle de Descida"],
+        "type": "pickup",
+        "id": 18
+      },
+      {
+        "name": "Mitsubishi L200 Triton",
+        "specifications": "HPE-S",
+        "price": "160.000",
+        "year": "2020",
+        "km": "18.000",
+        "imagem": "l200",
+        "details": ["Bancos em Couro", "MMCS com Tela de 7° e Navegação", "Ar-condicionado Dual Zone"],
+        "type": "pickup",
+        "id": 19
+      },
+      {
+        "name": "RAM 2500",
+        "specifications": "Laramie",
+        "price": "250.000",
+        "year": "2019",
+        "km": "25.000",
+        "imagem": "ram2500",
+        "details": ["Bancos em Couro", "Uconnect 8.4 NAV", "Câmera de Estacionamento Traseira"],
+        "type": "pickup",
+        "id": 20
+      }
+    
+    
+    ]

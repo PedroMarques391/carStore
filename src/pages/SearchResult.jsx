@@ -10,7 +10,7 @@ function SearchResult() {
 
   useEffect(() => {
     const getData = async () => {
-      const res = await fetch('../../data/db.json');
+      const res = await fetch('/carStore/db.json');
       const dataJson = await res.json();
 
       const searchCars = dataJson.filter((car) => {
@@ -25,17 +25,17 @@ function SearchResult() {
 
   return (
     <>
-      <Link className="relative" to="/garage">
+      <Link className="relative" to="/carStore/garage">
         <p className="text-4xl ml-3 md:ml-14 absolute p-5"><i className="fa-solid fa-arrow-left" /></p>
         <p className="text-transparent font-bold flex items-end p-4 md:ml-10 absolute h-28 hover:text-black transition duration-700">Garagem</p>
       </Link>
       <div className="mt-16 tablet:mt-28 flex flex-col items-center">
         <div className={`${cars.length === 0 ? 'hidden' : 'font-mono text-2xl capitalize p-2 text-center md:mb-20'}`}>
-          <p>{`Exibindo ${cars.length}`}</p>
-          <p className="text-center">
+          <div>{`Exibindo ${cars.length}`}</div>
+          <div className="text-center">
             resultados para
-            <p className="font-bold text-red-600 text-3xl">{`${searchValue}`}</p>
-          </p>
+            <div className="font-bold text-red-600 text-3xl">{`${searchValue}`}</div>
+          </div>
         </div>
         <section className="flex flex-wrap justify-center gap-5 md:w-4/6 tablet:w-5/6 w-full">
           {cars.length !== 0 ? cars.map((car) => (

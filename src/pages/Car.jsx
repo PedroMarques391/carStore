@@ -7,7 +7,7 @@ function Car() {
 
   useEffect(() => {
     const getData = async () => {
-      const res = await fetch('../../data/db.json');
+      const res = await fetch('/carStore/db.json');
       const JSON = await res.json();
       const selectedCar = JSON.find((carObject) => carObject.id == id);
       setCars(selectedCar);
@@ -46,7 +46,7 @@ function Car() {
           </div>
 
           <div className="w-full md:w-2/4 flex justify-center md:border border-red-700 border-x-transparent">
-            <img className="md:h-96 w-full" src={`/${car.imagem}.png`} alt="Carro" />
+            <img className="md:h-96 w-full" src={`/carStore/${car.imagem}.png`} alt="Carro" />
 
           </div>
 

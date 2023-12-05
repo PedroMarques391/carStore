@@ -23,14 +23,14 @@ function Navbar({ isOpen, handleToggle }) {
         !isOpen ? 'md:hidden flex flex-col items-center bg-black text-teal-50 duration-1000 h-32 z-50'
           : 'ml-[500px] md:-mt-28 flex flex-col items-center bg-black duration-1000 invisible border-transparent'} ${borderBotton && 'border-b-2 border-red-700'}`}
       >
-        <NavLink className="mobileClass" to="/">Home</NavLink>
-        <NavLink className="mobileClass" to="/garage">Garagem</NavLink>
-        <NavLink className="mobileClass" to="/about">About</NavLink>
+        <NavLink className="mobileClass" to="/carStore">Home</NavLink>
+        <NavLink className="mobileClass" to="/carStore/garage">Garagem</NavLink>
+        <NavLink className="mobileClass" to="/carStore/about">About</NavLink>
       </nav>
       <nav className="hidden md:flex justify-center items-center gap-5 bg-black p-2">
-        <NavLink className="navLinks" to="/">Home</NavLink>
-        <NavLink className="navLinks" to="/garage">Garagem</NavLink>
-        <NavLink className="navLinks" to="/about">About</NavLink>
+        <NavLink className="navLinks" to="/carStore">Home</NavLink>
+        <NavLink className="navLinks" to="/carStore/garage">Garagem</NavLink>
+        <NavLink className="navLinks" to="/carStore/about">About</NavLink>
       </nav>
     </nav>
   );
