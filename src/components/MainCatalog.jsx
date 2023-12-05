@@ -39,7 +39,7 @@ function MainCatalog({ size }) {
       <section className="flex flex-wrap justify-around md:w-4/6 tablet:w-4/5">
         {cars.slice(0, size).map((car) => (
           <div className="flex flex-col w-[45%] tablet:w-[30%] md:w-[23%] bg-white rounded-xl overflow-hidden justify-between mt-5 shadow-2xl shadow-black" key={car.id}>
-            <img className="md:h-44" src={`/carStore/${car.imagem}.jpg`} alt="Carro" />
+            <img className="h-32 md:h-44" src={`/carStore/${car.imagem}.jpg`} alt="Carro" />
             <section className="flex flex-col justify-between p-3 h-44">
               <p className="font-semibold">{car.name}</p>
               <p className="text-slate-500 mb-5">{car.specifications}</p>
