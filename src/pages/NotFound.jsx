@@ -14,7 +14,7 @@ function NotFound() {
           deletada ou possivelmente nunca existiu.
         </p>
         <Link
-          to="/"
+          to="/carStore/"
           className="text-lg text-white bg-red-600 px-6 py-3 rounded-xl
          hover:bg-red-700 transition duration-300"
         >

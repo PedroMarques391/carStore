@@ -24,7 +24,7 @@ function MainCatalog({ size }) {
     return reset;
   });
 
-  const isHomePage = pathname === '/carStore';
+  const isHomePage = pathname === '/carStore/';
 
   return (
     <>
