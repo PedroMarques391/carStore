@@ -13,7 +13,7 @@ Você pode acessar o projeto [aqui](https://pedromarques391.github.io/carStore/)
 
 ## Metodologia de Desenvolvimento
 
-O projeto foi construído seguindo a abordagem *mobile first*, garantindo uma experiência otimizada para dispositivos móveis, e posteriormente adaptado para tablets. Foram empregados conceitos essenciais do React, como React Routes, useState, useEffect e fetchAPI.
+O projeto foi construído seguindo a abordagem *mobile first*, garantindo uma experiência otimizada para dispositivos móveis, e posteriormente adaptado para tablets. Foram empregados conceitos essenciais do React, como React Routes, useState e useEffect.
 
 ## Páginas do Site
 
