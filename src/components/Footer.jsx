@@ -9,7 +9,7 @@ function Footer() {
   const [emptyEmail, setEmptyEmail] = useState(false);
   const { pathname } = useLocation();
 
-  const footerFixed = pathname.startsWith('/garage/');
+  const footerFixed = pathname.startsWith('/carStore/garage/');
 
   const handleFormSubmit = (e) => {
     e.preventDefault();

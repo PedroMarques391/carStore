@@ -30,7 +30,7 @@ function App() {
           <Route path="/carStore/garage" element={<Garage />} />
           <Route path="/carStore/search" element={<SearchResult />} />
           <Route path="/carStore/garage/:id/:name" element={<Car />} />
-          <Route path="*" element={<NotFound />} />
+          <Route path="/carStore/*" element={<NotFound />} />
         </Routes>
         <Footer />
       </BrowserRouter>
