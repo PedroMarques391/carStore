@@ -6,7 +6,7 @@ function Search() {
   const [query, setQuery] = useState();
   const handleSubmit = ((e) => {
     e.preventDefault();
-    navigate(`/carStore/search?q=${query}`);
+    navigate(`/search?q=${query}`);
   });
   return (
     <>

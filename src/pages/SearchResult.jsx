@@ -53,7 +53,7 @@ function SearchResult() {
               <div className="flex justify-center my-2">
                 <Link
                   className="rounded-lg text-center bg-black text-white w-5/6 p-2 uppercase hover:text-red-500 duration-1000"
-                  to={`/carStore/garage/${car.id}/${car.name}`}
+                  to={`/garage/${car.id}/${car.name}`}
                 >
                   Mais infomações
 

@@ -1,5 +1,5 @@
 import {
-  BrowserRouter, Route, Routes,
+  HashRouter, Route, Routes,
 } from 'react-router-dom';
 import { useState } from 'react';
 import Navbar from './components/Navbar';
@@ -21,19 +21,19 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <HashRouter basename="/">
         <Navbar isOpen={isOpen} handleToggle={handleToggle} />
         <ScrollToTop isOpen={isOpen} handleToggle={handleToggle} />
         <Routes>
-          <Route path="/carStore" element={<Home isOpen={isOpen} />} />
-          <Route path="/carStore/about" element={<About />} />
-          <Route path="/carStore/garage" element={<Garage />} />
-          <Route path="/carStore/search" element={<SearchResult />} />
-          <Route path="/carStore/garage/:id/:name" element={<Car />} />
-          <Route path="/carStore/*" element={<NotFound />} />
+          <Route path="/" element={<Home isOpen={isOpen} />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/garage" element={<Garage />} />
+          <Route path="/search" element={<SearchResult />} />
+          <Route path="/garage/:id/:name" element={<Car />} />
+          <Route path="/*" element={<NotFound />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
 
     </>
 
